@@ -1,6 +1,10 @@
 # Sistema-Estoque
 
-### Sistema simples de controle de Estoque em PHP+JS+SQL+BS. 
+### Sistema simples de controle de Estoque em PHP+JS+SQL+BS.
+
+>index.php
+
+<img src="./.github/screenshot.PNG" width="600px">
 
 Pode ser totalmente modificado conforme sua necessidade.
 
@@ -19,3 +23,14 @@ Arquivo `'banco-produto.php'` contem todas as funcões que inserem e buscam info
 function insereProduto($conexao, $nome, $motivo, $chamado, $local, $solicitante, $tecnico, $data, $quantidader) {
     $query = "insert into relatorio (item, motivo, chamado, local, solicitante, tecnico, dataregistro, quantidade)
 ```
+
+# Screenshots
+
+>estoque.php
+<img src="./.github/screenshot2.PNG" width="600px">
+
+>relatorio.php
+<img src="./.github/screenshot3.PNG" width="600px">
+
+>Modal para Registrar Saida dos Itens. Pode ser aberto em qualquer Aba do sistema. 
+<img src="./.github/screenshot4.PNG" width="600px">
