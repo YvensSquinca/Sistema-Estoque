@@ -1,5 +1,6 @@
 # Sistema-Estoque
-Sistema simples de controle de Estoque em PHP+JS+SQL+BS. 
+
+### Sistema simples de controle de Estoque em PHP+JS+SQL+BS. 
 
 Pode ser totalmente modificado conforme sua necessidade.
 
@@ -14,3 +15,7 @@ $conexao = mysqli_connect('localhost', 'root', '', 'sistemaestoque');
 ```
 
 Arquivo `'banco-produto.php'` contem todas as funcões que inserem e buscam informações no BD, deve ser modificado de acordo com suas tabelas do BD.
+```bash
+function insereProduto($conexao, $nome, $motivo, $chamado, $local, $solicitante, $tecnico, $data, $quantidader) {
+    $query = "insert into relatorio (item, motivo, chamado, local, solicitante, tecnico, dataregistro, quantidade)
+```
