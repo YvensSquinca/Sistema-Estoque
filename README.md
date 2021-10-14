@@ -4,7 +4,7 @@
 
 >index.php
 
-<img src="./.github/screenshot.PNG" width="600px">
+<img src="./.github/screenshot.PNG" width="900px">
 
 Pode ser totalmente modificado conforme sua necessidade.
 
@@ -27,10 +27,10 @@ function insereProduto($conexao, $nome, $motivo, $chamado, $local, $solicitante,
 # Screenshots
 
 >estoque.php
-<img src="./.github/screenshot2.PNG" width="600px">
+<img src="./.github/screenshot2.PNG" width="900px">
 
 >relatorio.php
-<img src="./.github/screenshot3.PNG" width="600px">
+<img src="./.github/screenshot3.PNG" width="900px">
 
 >Modal para Registrar Saida dos Itens. Pode ser aberto em qualquer Aba do sistema. 
-<img src="./.github/screenshot4.PNG" width="600px">
+<img src="./.github/screenshot4.PNG" width="900px">
